@@ -2,10 +2,11 @@ body {
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 }
 
-@media(max-width:1000px){
+@media only screen and (max-width: 600px){
     #image {
-        width: 60%;
+       max-width: 60%;
     }
+    
 }
 
 #title h1, h4{
@@ -25,6 +26,7 @@ body {
 }
 #img-div p{
     text-align: center;
+    padding-top: 5px;
 }
 #tribute-info {
     
@@ -35,10 +37,15 @@ body {
     padding:10px 50px;
     border-radius: 5px;
 }
+#tribute-info p{
+    line-height: 40px;
+    padding-top: 20px;
+}
 #tribute-link{
     color: white;
 }
 #copyright{
     padding-top: 50px;
     text-align: center;
+    color: rgb(167, 20, 20);
 }
