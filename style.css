@@ -40,9 +40,10 @@ body {
 #tribute-info p{
     line-height: 40px;
     padding-top: 20px;
+    font-size: 1em;
 }
 #tribute-link{
-    color: white;
+    color: black;
 }
 #copyright{
     padding-top: 50px;
